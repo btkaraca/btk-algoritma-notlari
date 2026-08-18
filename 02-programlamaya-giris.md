@@ -24,5 +24,29 @@ Programlama dilleriyle dijital dünyadaki pek çok farklı alanda çözümler ü
 * **Otomasyon ve Script Yazımı:** Tekrarlayan günlük işler, dosya düzenlemeleri ve veri aktarımları otomatikleştirilebilir.
 * **Gömülü Sistemler ve IoT (Nesnelerin İnterneti):** Akıllı ev cihazları, robotik sistemler, mikrokontrolcüler (Arduino, Raspberry Pi) ve endüstriyel makineler kontrol edilebilir.
 
+## Tümleşik Geliştirme Ortamı (IDE - Integrated Development Environment)
 
+**IDE**, yazılım geliştiricilerin kod yazma, test etme, derleme ve hata ayıklama süreçlerini tek bir çatı altında toplamalarını sağlayan kapsamlı bir yazılım aracıdır.
+
+Basit bir metin düzenleyiciden (Not Defteri vb.) farklı olarak, bir projenin tüm yaşam döngüsünü yönetmek için gerekli bileşenleri entegre biçimde sunar.
+
+---
+
+### Temel Bileşenleri
+
+* **Kaynak Kod Editörü (Source Code Editor):** Kod renklendirme (syntax highlighting), otomatik kod tamamlama (IntelliSense) ve otomatik girintileme sunan metin düzenleme alanı.
+* **Derleyici / Yorumlayıcı (Compiler / Interpreter):** Yazılan kaynak kodunu doğrudan IDE içerisinden çalıştırılabilir makine diline çeviren veya yürüten sistem.
+* **Hata Ayıklayıcı (Debugger):** Kodu satır satır çalıştırarak (breakpoint koyarak) mantıksal hataları, değişken değerlerini ve bellek durumunu anlık inceleme imkânı veren araç.
+* **Yapı Otomasyonu (Build Tools):** Proje bağımlılıklarını yöneten, kodu otomatik paketleyen ve derleme işlemlerini organize eden araçlar.
+* **Sürüm Kontrol Entegrasyonu (Version Control):** Git gibi sistemleri doğrudan arayüz üzerinden (commit, push, pull, branch yönetimi) çalıştırma desteği.
+
+---
+
+### Popüler IDE ve Editör Örnekleri
+
+* **VS Code:** Hafif, eklentilerle tam teşekküllü bir geliştirme ortamına dönüşebilen modern editör.
+* **Visual Studio:** C++, C#, .NET ekosistemi için tasarlanmış kapsamlı profesyonel IDE.
+* **JetBrains Ailesi (PyCharm, IntelliJ IDEA, CLion):** Python, Java ve C/C++ gibi dillere özel optimize edilmiş akıllı IDE'ler.
+* **Android Studio:** Android mobil uygulamaları geliştirmek için kullanılan resmi IDE.
+* **Xcode:** macOS ve iOS uygulamaları geliştirmek için Apple ekosistemine özel resmi ortam.
 
