@@ -41,3 +41,35 @@ Algoritmalarda karşılaştırma ve karar verme yapıları kurmak için matemati
 *   `x > y` (x, y'den büyük mü?)
 
 > **Not:** Algoritmalar, matematiğin temelindeki fonksiyon mantığına benzerlik gösterir; bir girdi alır, işlem yapar ve bir çıktı üretir.
+
+
+
+# Kaba Kod (Pseudocode)
+Makinenin değil insanın anlayacağı şekilde basit olmalıdır.
+
+
+* **Yapı:** Yapılandırılmış bir metin biçimidir; doğrudan çalıştırılabilir bir bilgisayar programı değildir.
+* **Amaç:** Bir veri yapısının veya algoritmanın üst düzey mantıksal analizini ve tasarımını kolaylaştırır.
+* **Hedef Kitle:** Bilgisayar veya derleyici için değil, insan zihninin kolayca kavrayabileceği sadelikte yazılır.
+# ardısikSayilarinToplami (n)
+
+* **Problem Tanımı:** Limit olarak klavyeden belirtilen bir $n$ sayısına kadar olan ardışık sayıların toplamı için kaba kod tasarımı.
+
+
+
+**Algoritma** *ardisikSayilarinToplami ($n$)*  
+* **Giriş:** Limit değerini temsil eden $n$ sayısı.  
+* **Çıkış:** Toplam sonucu  
+
+```text
+n değerini oku
+i ← 0
+toplam ← 0
+
+while i ≤ n do
+    toplam ← toplam + i
+    i ← i + 1
+end while
+
+Toplamı yaz
+
