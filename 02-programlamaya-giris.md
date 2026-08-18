@@ -50,3 +50,25 @@ Basit bir metin düzenleyiciden (Not Defteri vb.) farklı olarak, bir projenin t
 * **Android Studio:** Android mobil uygulamaları geliştirmek için kullanılan resmi IDE.
 * **Xcode:** macOS ve iOS uygulamaları geliştirmek için Apple ekosistemine özel resmi ortam.
 
+## .NET Framework
+
+**.NET Framework**, Microsoft tarafından geliştirilen, Windows işletim sisteminde uygulamaların oluşturulmasını, dağıtılmasını ve çalıştırılmasını sağlayan kapsamlı bir yazılım geliştirme platformudur (framework).
+
+---
+
+### Temel Mimarisi ve Bileşenleri
+
+* **CLR (Common Language Runtime):** .NET uygulamalarının çalışma zamanı motorudur. Bellek yönetimi (Garbage Collection), iş parçacığı (threading) yönetimi, istisna yakalama (exception handling) ve güvenlik denetimlerini yürütür.
+* **FCL (Framework Class Library):** Veritabanı erişimi, dosya okuma/yazma, ağ iletişimi, veri yapıları ve kullanıcı arayüzü gibi standart işlevleri içeren zengin hazır sınıflar kütüphanesidir.
+* **Çoklu Dil Desteği:** C#, VB.NET ve F# gibi farklı dillerde yazılan kodlar önce **IL (Intermediate Language)** adlı ortak ara koda, ardından CLR içerisindeki **JIT (Just-In-Time) Compiler** ile makine diline çevrilir.
+
+---
+
+### Temel Özellikleri
+
+* **Windows Bağımlılığı:** Klasik .NET Framework yalnızca Windows işletim sisteminde çalışacak şekilde tasarlanmıştır *(Platform bağımsız modern geliştirme için günümüzde modern `.NET` / `.NET Core` kullanılır)*.
+* **Dil Bağımsızlığı (Language Interoperability):** Farklı .NET dilleriyle yazılmış modüller aynı proje içerisinde bir arada sorunsuz çalışabilir.
+* **Geniş Uygulama Alanı:** Masaüstü (WPF, Windows Forms), web (ASP.NET) ve web servisleri (WCF) geliştirmek için altyapı sunar.
+.netframeworks:
+
+
