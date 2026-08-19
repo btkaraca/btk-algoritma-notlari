@@ -71,4 +71,51 @@ Basit bir metin düzenleyiciden (Not Defteri vb.) farklı olarak, bir projenin t
 * **Geniş Uygulama Alanı:** Masaüstü (WPF, Windows Forms), web (ASP.NET) ve web servisleri (WCF) geliştirmek için altyapı sunar.
 .netframeworks:
 
+# Değişkenler (Variables)
+
+Bir değişken; **Tip**, **İsimlendirme** ve **Değer** olmak üzere 3 temel unsurdan oluşur.
+
+---
+
+## 1. Tip (Type)
+
+* **Yerleşik Tipler (Built-in Types):**
+  * `int`: Tam sayılar
+  * `float`, `double`: Ondalıklı sayılar
+  * `char`: Tek bir karakter (`'a'`)
+  * `string`: Metinsel ifadeler (`"metin"`)
+  * `bool`: Mantıksal değerler (`true` / `false`)
+  * `datetime`: Tarih ve saat bilgisi
+
+* **Kullanıcı Tanımlı Tipler (User-Defined Types):**
+  * Geliştirici tarafından oluşturulan karmaşık veri yapılarıdır (`struct`, `class`).
+  * *Örnek (Ogrenci Tipi):*
+    * `numara` $\rightarrow$ `int`
+    * `adiSoyadi` $\rightarrow$ `string`
+    * `cinsiyet` $\rightarrow$ `bool`
+
+---
+
+## 2. İsimlendirme (Naming Rules & Conventions)
+
+### Temel Kurallar
+* **Rakamla Başlayamaz:** Değişken isimleri rakamla başlayamaz (Örn: `int 1sayi = 3;` ❌ geçersizdir).
+* **Özel Karakter Kısıtlaması:** `#`, `?`, `!`, boşluk gibi özel karakterler kullanılamaz. Ayırıcı olarak **alt çizgi (`_`)** kullanılabilir (Örn: `double en_kucuk = -1;` ✔️).
+* **Anahtar Kelimeler (Keywords):** Dilin kendine ayırdığı rezerve kelimeler değişken adı yapılamaz (`for`, `while`, `if`, `using`, `enum` vb.).
+* **Türkçe Karakter Kullanımı:** Kodun taşınabilirliği ve derleme sorunlarını önlemek adına Türkçe karakterler (`ç`, `ğ`, `ı`, `ö`, `ş`, `ü`) kullanılmamalıdır.
+
+### İsimlendirme Standartları
+* **PascalCase (Upper Camel Case):** Her kelimenin ilk harfi büyük yazılır.  
+  * *Örnek:* `UzunFonksiyonAdi`
+* **camelCase:** İlk kelime küçük, sonraki kelimelerin ilk harfi büyük yazılır.  
+  * *Örnek:* `uzunFonksiyonAdi`
+
+---
+
+## 3. Değer (Value) ve Bellek Temsili
+
+Değişken tanımlandığında bellekte (RAM) belirli bir alan ayrılır:
+* **Değişken Adı:** Bellek adresine verilen erişim etiketidir (Örn: `sayi`).
+* **Veri Tipi:** Bellekte ne kadar alan ayrılacağını ve verinin türünü belirler (Örn: `int`).
+* **Değer:** İlgili bellek hücresinde tutulan gerçek veridir (Örn: `3`).
 
